@@ -1,33 +1,30 @@
 global.__IS_SERVER__ = true;
 global.__IS_CLIENT__ = false;
 
-import koa from 'koa';
-import KoaRouter from 'koa-router'
-var app = koa();
-var router = KoaRouter();
+import koa        from 'koa';
+import KoaRouter  from 'koa-router';
+import ssr        from './ssr';
+import favicon    from 'koa-favicon';
+import path       from 'path';
 
-// x-response-time
+var app     = koa();
+var router  = KoaRouter();
 
-app.use(function *(next){
-  var start = new Date;
-  yield next;
-  var ms = new Date - start;
-  this.set('X-Response-Time', ms + 'ms');
+router.get('/', function * (next){
+    yield next;
 });
 
-// logger
+app
+    .use(favicon(path.resolve('favicon.ico')))
+    .use(function * (next){
+        this.initialData = {};
+        yield next;
+    })
+    .use(ssr)
+    .use(router.routes())
+    .use(router.allowedMethods());
 
-app.use(function *(next){
-  var start = new Date;
-  yield next;
-  var ms = new Date - start;
-  console.log('%s %s ds- %s', this.method, this.url, ms);
+
+app.listen(3000, function () {
+    console.log('3000 is listening!');
 });
-
-// response
-
-app.use(function *(){
-  this.body = 'Hello ds World';
-});
-
-app.listen(3000);
