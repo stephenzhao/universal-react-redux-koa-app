@@ -1,0 +1,34 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@import "./lib/normalize.css";
+@import "./lib/fonticon.css";
+@import "./lib/grid.css";
+@import "./lib/layout.css";
+@import "./lib/animate.css";
+
+@import "./component/tabbar.css";
+@import "./component/titlebar.css";
+@import "./component/pull-to-refresh.css";
+@import "./component/image.css";
+@import "./component/sprite.css";
+@import "./component/button.css";
+@import "./component/loading.css";
+@import "./component/toast.css";
+@import "./component/scroll-wheel-picker.css";
+
+@import "./page/page-index.css";
+@import "./page/page-register.css";
+@import "./page/page-theme-detail.css";
+@import "./page/page-account-index.css";
+@import "./page/page-invitation-list.css";
+@import "./page/page-checkout.css";
+@import "./page/page-choose-place.css";
+@import "./page/page-choose-commodity.css";
+@import "./page/page-order-detail.css";
+@import "./page/page-unpaid-order.css";
+@import "./page/page-coupon.css";
+@import "./page/page-order-list.css";
+@import "./page/page-album-list.css";
+@import "./page/page-album-detail.css";

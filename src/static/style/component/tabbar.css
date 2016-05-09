@@ -1,0 +1,37 @@
+.tabbar {
+    height: 2.8rem;
+    width: 16rem;
+}
+
+.tabbar-wrapper {
+    height: 2.8rem;
+    width: 16rem;
+    position: fixed;
+    bottom: 0;
+    background: url(../../image/tab_bg.png) no-repeat;
+    background-size: cover;
+    padding: 0.2rem 1.6rem;
+    box-sizing: border-box;
+}
+
+.tabbar-item {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.tabbar-item a.active {
+    color: #ff70af;
+}
+
+.tabbar-item a {
+    text-decoration: none;
+    color: #d8bb33;
+    display: block;
+    margin-top: 1.3rem;
+}
+.tabbar-item.index a {
+    padding: 0.5rem;
+    margin: 0;
+}

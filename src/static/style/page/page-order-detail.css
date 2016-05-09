@@ -1,0 +1,118 @@
+.page-order-detail .head {
+    background: #fff;
+    padding: 10px;
+}
+.page-order-detail .head .contact-phone {
+    height: 43px;
+    width: 43px;
+    display: block;
+}
+.page-order-detail .head .contact-name {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.page-order-detail .main {
+    margin-left: 22px;
+    border-left: 2px solid #dbe1ea;
+    padding-bottom: 20px;
+}
+.page-order-detail .field {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.page-order-detail .field:last-child {
+    border-bottom: 0;
+}
+.page-order-detail .section {
+    padding-top: 10px;
+}
+.page-order-detail .section-title {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-left: -11px;
+    font-weight: normal;
+}
+.page-order-detail .section-title i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.page-order-detail .section .content {
+    background-color: #fff;
+    margin: 10px;
+    background-image: url(../../image/wave_bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 20px auto;
+    padding: 0 0 10px 0;
+}
+.page-order-detail .section .content.order-info {
+    padding-left: 15px;
+}
+.page-order-detail .section .content-text {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    padding: 10px;
+}
+.page-order-detail .theme-image {
+    height: 55px;
+    width: 55px;
+}
+.page-order-detail .theme-name {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.page-order-detail .theme-desc {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    padding: 0;
+    margin: 0 10px;
+    display: block;
+    display: -webkit-box;
+    max-height: 32px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page-order-detail .order-info dl {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+}
+.page-order-detail .order-info dd {
+    padding: 0;
+    margin: 0;
+    color: #999;
+    margin-left: 10px;
+}
+.page-order-detail .order-info dd:before {
+    content: '';
+    background: #9bd8ff;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: 3px;
+    margin-right: 5px;
+    margin-left: -10px;
+}
+.page-order-detail .total {
+    padding: 0;
+    margin: 0;
+}
+.page-order-detail .price {
+    color: #e968a1;
+    font-size: 14px;
+}
+.page-order-detail .price em {
+    font-weight: bold;
+    font-size: 17px;
+    font-style: normal;
+}

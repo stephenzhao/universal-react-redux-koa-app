@@ -1,0 +1,99 @@
+.page-order-list .order-item {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.page-order-list .order-item .hd {
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+}
+
+.page-order-list .order-item .hd .sprite-note {
+    margin-right: 5px;
+}
+
+.page-order-list .order-item .hd .order-title {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-order-list .order-item .hd .order-status {
+    min-width: 45px;
+    display: block;
+    color: #999;
+    font-size: 14px;
+}
+
+.page-order-list .order-item .hd .order-status em {
+    color: #e968a1;
+    font-style: normal;
+}
+
+.page-order-list .bd {
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    padding: 10px 0;
+}
+
+.page-order-list .bd .sprite-angle-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -6px;
+}
+.page-order-list .bd a {
+    text-decoration: none;
+    color: #999;
+    display: block;
+}
+
+.page-order-list .bd .field {
+    display: -webkit-box;
+}
+
+.page-order-list .bd .field .text {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display: block;
+}
+
+.page-order-list .bd .label {
+    min-width: 50px;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+}
+
+.page-order-list .bd .label:after {
+    content: ':';
+    margin-right: 5px;
+}
+
+.page-order-list .bd .label i {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+
+.page-order-list .bd .label i:first-child {
+    text-align: left;
+}
+.page-order-list .bd .label i:last-child {
+    text-align: right;
+}
+
+.page-order-list .fd {
+    padding: 5px 0;
+    text-align: right;
+}
+

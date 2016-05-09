@@ -1,0 +1,27 @@
+.toast {
+    display: none;
+    z-index: 10001;
+    position: fixed;
+    z-index: 10001;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -45px;
+}
+.toast.active {
+    display: block;
+}
+.toast span {
+    border-radius: 5px;
+    padding: 12px 10px;
+    word-break: break-all;
+    line-height: 20px;
+    min-width: 60%;
+    display:inline-block;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 0 auto;
+}

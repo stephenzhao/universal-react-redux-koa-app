@@ -1,0 +1,65 @@
+.page-register {
+    background: #fff;
+}
+.page-register .btn-block.btn-large {
+    margin: 10px;
+}
+
+.page-register fieldset {
+    border-style: solid;
+    border-color: #ebf0f7;
+    border-width: 10px 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.page-register .field {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.page-register .field:last-child {
+    border-bottom: 0;
+}
+
+.page-register .field label {
+    width: 3rem;
+    display: inline-box;
+    display: -webkit-inline-box;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-pack: justify;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+}
+
+.page-register .field label:after {
+    content: ':';
+    display: inline;
+}
+
+.page-register .field label i {
+    -webkit-box-flex: 1;
+    font-style: normal;
+    display: block;
+}
+
+.page-register .field input {
+    height: 50px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 11rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.page-register .field .btn-ghost.btn-round {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

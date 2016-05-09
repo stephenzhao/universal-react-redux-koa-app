@@ -1,0 +1,136 @@
+.btn {
+    display: inline-block;
+    padding: 7px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-round {
+    border-radius: 28px;
+}
+
+.btn-large.btn-round {
+    border-radius: 40px;
+}
+
+.btn-large {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.btn-cube {
+    border-radius: 0;
+}
+
+.btn-middle {
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.btn-link {
+    border: 0;
+    background: #fff;
+    color: #ab44a0;
+}
+
+.btn-white, .btn-ghost {
+    background: #fff;
+    color: #333;
+    border: 1px solid #dadada
+}
+
+.btn-list .btn {
+    margin-right: 10px;
+}
+
+.btn-block {
+    display: block;
+}
+
+/*Specificity overrides*/
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block,
+button.btn-block {
+    width: 100%;
+}
+
+/*Vertically space out multiple block buttons*/
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+.btn-purple, .btn-primary {
+    color: #fff;
+    border-color: #ab44a0;
+    background: #ab44a0;
+}
+
+.btn-purple.btn-ghost {
+    border-color: #ab44a0;
+    color: #ab44a0;
+    background: #fff;
+}
+
+.btn-pink {
+    color: #fff;
+    background: #e968a1;
+    border-color: #e968a1;
+}
+
+.btn-pink.btn-ghost {
+    color: #e968a1;
+    background: #fff;
+}
+
+.btn-blue {
+    color: #fff;
+    background: #a8d6f3;
+    border-color: #a8d6f3;
+}
+
+.btn-blue.btn-ghost {
+    color: #a8d6f3;
+    background: #fff;
+}
+
+.btn-gray {
+    background: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    color: #fff;
+}
+
+.btn-gray.btn-ghost {
+    border-color: #d9d9d9;
+    color: #d9d9d9;
+    background: #fff;
+}
+
+.btn-important {
+    color: #fff;
+    background-color: #ab44a0;
+    border-color: #ab44a0;
+}
+
+.btn-danger {
+    background: #ff5039;
+    border: none;
+}

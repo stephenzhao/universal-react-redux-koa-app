@@ -41,7 +41,7 @@
     window.__IS_CLIENT__ = true;
     window.__INIT_DATA__ = undefined;
     </script>
-    <link rel="stylesheet" href="<% STYLE %>">
+    <link rel="stylesheet" href="<%= STYLE %>">
     <script>
         if (/micromessenger/i.test(window.navigator.userAgent)) {
             document.write(unescape('%3C') + 'script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"'+unescape('%3E%3C') +'/script' + unescape('%3E'));

@@ -3,6 +3,7 @@ var postcssImport = require('postcss-import');
 var postcssUrl = require('postcss-url');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var config = require('./config.json');
+var path = require('path');
 
 module.exports = {
     entry: {
@@ -17,9 +18,13 @@ module.exports = {
             'redux-thunk'
         ]
     },
+    devtool: 'source-map',
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.scss', '.css']
+    },
     output: {
         path: config.dest,
-        filename: '[name]-[chunkhash].js'
+        filename: '[name].js'
     },
     module: {
         loaders: [
@@ -27,7 +32,13 @@ module.exports = {
                 test: /\.js$/,
                 loaders: ['babel-loader'],
                 exclude: /node_modules/,
-                include: __dirname
+                include: [path.resolve(__dirname, 'src')]
+            },
+            {
+                test: /\.jsx$/,
+                loaders: ['babel-loader'],
+                exclude: /node_modules/,
+                include: [path.resolve(__dirname, 'src')]
             },
             {
                 test: /\.css$/,
@@ -35,7 +46,7 @@ module.exports = {
             },
             {
                 test: /\.(eot|ttf|woff|woff2)/,
-                loader: 'file-loader?name=[name]-[hash].[ext]'
+                loader: 'file-loader?name=./[name]-[hash].[ext]'
             },
             {
                 test: /\.json$/,
@@ -48,11 +59,8 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin('lib', 'lib-[chunkhash].js'),
-        new ExtractTextPlugin("index-[contenthash].css"),
-        new webpack.optimize.UglifyJsPlugin({
-            warnings: false
-        })
+        new webpack.optimize.CommonsChunkPlugin('lib', 'lib.js'),
+        new ExtractTextPlugin("index.css")
     ],
     postcss: function (webpack) {
         return [

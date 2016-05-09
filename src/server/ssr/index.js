@@ -7,13 +7,13 @@ import {Provider} from 'react-redux';
 import fs from 'fs';
 import path from 'path';
 import store from '../../app/store';
+import assetConfig from '../../../build/asset.config.json';
 var i = 0;
 function serverRender(url, store) {
     var routes = createRoutes(createHistory());
     return new Promise(function (res, rej) {
         match({routes: routes, location: url}, (error, redirectLocation, renderProps) => {
             var html;
-
             if (error) {
                 rej(error);
                 return;
@@ -41,15 +41,16 @@ module.exports = function * (next) {
     var initialData = this.initialData;
     var _store = store(initialData);
     // console.log('xx--', i++);
+    console.log(this.request.url);
     serverRender(this.request.url, _store)
             .then(function (result) {
                 if (result.html) {
                     var content = html
                         .replace(/<%= HTML %>/g, result.html)
                         .replace(/<%= __INIT_DATA__ %>/, JSON.stringify(_store.getState()))
-                        .replace(/<%= LIBJS %>/, '/lib.js')
-                        .replace(/<%= APPJS %>/, '/app.js')
-                        .replace(/<%= STYLE %>/, 'http://s1.wm1t.com/party/style/index.css');
+                        .replace(/<%= LIBJS %>/, assetConfig.lib)
+                        .replace(/<%= APPJS %>/, assetConfig.app)
+                        .replace(/<%= STYLE %>/, assetConfig.style);
                     ctx.body = content + i++;
                 }
             })

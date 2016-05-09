@@ -1,0 +1,60 @@
+.page-account-index .head {
+    height: 6rem;
+    background-image: url(../../image/wave_bg.png);
+    background-repeat: repeat-x;
+    background-size: 20px auto;
+    background-position: bottom;
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+.page-account-index .avatar {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 3.75rem;
+    margin: 0 auto;
+    display: block;
+}
+.page-account-index .nickname {
+    font-size: 0.8rem;
+    text-align: center;
+    display: block;
+    margin-top: .25rem;
+}
+.page-account-index .section {
+    background: #fff;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+.page-account-index .section-row {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+    display: block;
+}
+.page-account-index .section-row:last-child {
+    border-bottom: 0;
+}
+.page-account-index .sprite-crown {
+    width: .7rem;
+    height: .7rem;
+    vertical-align: -.05rem;
+}
+.page-account-index .section-row-text {
+    font-size: 0.7rem;
+    color: #333;
+    margin-left: 0.5rem;
+}
+.page-account-index .section-row-sub-text {
+    color: #999;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+}
+.page-account-index .section-row .fi-angle-right {
+    float: right;
+    color: #C5C5C5;
+    font-size: 0.6rem;
+    line-height: 2.25rem;
+    margin-right: 0.5rem;
+}

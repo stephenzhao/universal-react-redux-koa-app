@@ -1,0 +1,30 @@
+.titlebar {
+    height: 46px;
+}
+.titlebar .wrapper {
+    height: 46px;
+    line-height: 46px;
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.titlebar .fi {
+    font-size: 20px;
+    color: #323232;
+    margin-left: 10px;
+}
+.titlebar .row {
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+
+.titlebar .title {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    margin: 0;
+    line-height: 20px;
+    font-weight: normal;
+}

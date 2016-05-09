@@ -1,0 +1,46 @@
+.pull-to-refresh {
+    position: relative;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.pull-to-refresh .pull-to-refresh-icon {
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.pull-to-refresh .pull-to-refresh-text {
+    display: inline-block;
+    text-align: center;
+    min-width: 100px;
+    margin-left: 10px;
+}
+.pull-to-refresh.active .pull-to-refresh-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.pull-to-refresh.loading .pull-to-refresh-icon {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.pull-to-refresh .pull-to-refresh-head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 10;
+}
+.pull-to-refresh .pull-to-refresh-content {
+    background: #fff;
+    z-index: 20;
+    position: relative;
+}

@@ -1,0 +1,154 @@
+.page-unpaid-order-detail .head {
+    background: #f66eaa;
+    padding: 10px;
+    min-height: 80px;
+}
+.page-unpaid-order-detail .head p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+    font-size: 16px;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    margin-left: 10px;
+}
+.page-unpaid-order-detail .head .btn-pink {
+    background: #ff87bc;
+    border-color: #ff87bc;
+}
+.page-unpaid-order-detail .section {
+    margin-bottom: 10px;
+    background: #fff;
+}
+.page-unpaid-order-detail .section-title {
+    font-size: 14px;
+    color: #999;
+    background: #ebf0f7;
+    line-height: 20px;
+    height: 20px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin: 0;
+}
+.page-unpaid-order-detail .field {
+    display: -webkit-box;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 13px 10px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+.page-unpaid-order-detail .field .sprite-angle-right {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+.page-unpaid-order-detail .field:last-child {
+    border-bottom: 0;
+}
+.page-unpaid-order-detail .field .label {
+    color: #bababa;
+    display: -webkit-box;
+    min-width: 50px;
+    margin-right: 10px;
+}
+.page-unpaid-order-detail .field .label:after {
+    content: ':';
+}
+.page-unpaid-order-detail .field .label i {
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+    font-style: normal;
+}
+.page-unpaid-order-detail .field .field-text {
+    color: #333;
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.page-unpaid-order-detail .field .field-text em{
+    color: #e968a1;
+    font-style: normal;
+}
+.page-unpaid-order-detail .field .label i:first-child {
+    text-align: left;
+}
+.page-unpaid-order-detail .field .label i:last-child {
+    text-align: right;
+}
+.page-unpaid-order-detail .field-code {
+    line-height: 14px;
+    font-size: 14px;
+}
+.page-unpaid-order-detail .field-code .label {
+    color: #333;
+}
+.page-unpaid-order-detail .theme-info {
+    padding: 10px;
+}
+.page-unpaid-order-detail .theme-image {
+    width: 70px;
+    height: 70px;
+}
+.page-unpaid-order-detail .theme-name {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    font-weight: normal;
+}
+.page-unpaid-order-detail .theme-desc {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    padding: 0;
+    margin: 0 0 0 10px;
+    display: block;
+    display: -webkit-box;
+    max-height: 48px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page-unpaid-order-detail .footer {
+    height: 50px;
+    width: 100%;
+}
+.page-unpaid-order-detail .footer-wrapper {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    border-top: 1px solid #f0f0f0;
+    padding: 0 10px;
+}
+.page-unpaid-order-detail .footer .total {
+    padding: 0;
+    margin: 0;
+}
+.page-unpaid-order-detail .footer .price {
+    color: #e968a1;
+    font-size: 14px;
+}
+.page-unpaid-order-detail .footer .price em {
+    font-weight: normal;
+    font-size: 17px;
+    font-style: normal;
+}
+.page-unpaid-order-detail .footer sub {
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: top;
+    color: #999;
+    bottom: auto;
+}
+.page-unpaid-order-detail .coupon-amount {
+    text-align: right;
+    margin-right: 10px;
+}

@@ -1,0 +1,268 @@
+.page-checkout .popup-head {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.page-checkout .popup-head .cancel {
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #999;
+}
+.page-checkout .popup-head .confirm {
+    display: block;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #e968a1;
+    text-align: right;
+}
+.page-checkout .field-group {
+    margin-bottom: 10px;
+    background: #fff;
+}
+.page-checkout .field-group .field {
+    display: -webkit-box;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    min-height: 45px;
+    line-height: 45px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    position: relative;
+    font-size: 14px;
+}
+.page-checkout .field-group .field:last-child {
+    border-bottom: 0;
+}
+.page-checkout .field-placeholder {
+    color: #bababa;
+    margin-left: 5px;
+}
+.page-checkout .field-placeholder sub {
+    bottom: 0;
+}
+.page-checkout .field-group .field .sprite-angle-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 10px;
+    margin-top: -8px;
+    color: #dce1e8;
+    font-weight: bold;
+}
+.page-checkout .field-group .field .field-text {
+    margin-left: 10px;
+    margin-right: 20px;
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.page-checkout .field-group .field .field-text em {
+    font-style: normal;
+    color: #e968a1;
+}
+.page-checkout .field-input {
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    margin-left: 5px;
+    font-size: 14px;
+    min-height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 10px 0 10px 5px;
+    border: 0;
+}
+.page-checkout .field-combo {
+    padding: 15px 10px;
+}
+.page-checkout .field-combo .sprite-angle-right {
+    display: block;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.page-checkout .combo-image {
+    width: 70px;
+    height: 70px;
+}
+.page-checkout .combo-info {
+    margin-left: 10px;
+}
+.page-checkout .combo-title {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page-checkout .combo-desc {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    display: block;
+    display: -webkit-box;
+    max-height: 32px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page-checkout .combo-price {
+    color: #e968a1;
+    font-size: 12px;
+}
+.page-checkout .combo-price em {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.page-checkout .child-info .sprite-pencil {
+    margin-left: -20px;
+    margin-right: 5px;
+}
+.page-checkout .child-info .field-label:after {
+    content: ':';
+}
+.page-checkout .child-info .field-label {
+    color: #bababa;
+    width: 50px;
+    display: inline-block;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+}
+.page-checkout .child-info .field-label i {
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+    font-style: normal;
+}
+.page-checkout .child-info .field-label i:first-child {
+    text-align: left;
+}
+.page-checkout .child-info .field-label i:last-child {
+    text-align: right;
+}
+.page-checkout .field-place .field-text {
+    display: block;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.page-checkout .field-place .field-text em {
+    display: block;
+}
+.page-checkout .child-info .field-gender label {
+    display: inline-block;
+    width: 50px;
+    padding-left: 10px;
+    color: #bababa;
+    position: relative;
+}
+.page-checkout .child-info .field-gender i {
+    margin-right: 5px;
+}
+.page-checkout .child-info {
+    padding-left: 20px;
+}
+.page-checkout .child-info .field-textarea {
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    margin-left: 5px;
+    font-size: 14px;
+    height: 45px;
+    line-height: 18px;
+    margin: 0;
+    padding: 13px 0 0 5px;
+    border: 0;
+}
+.page-checkout .service-btn {
+    color: #e968a1;
+    margin: 0 10px 20px 10px;
+    ;
+}
+.page-checkout .foot {
+    height: 65px;
+    width: 100%;
+}
+.page-checkout .foot-wrapper {
+    height: 65px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    border-top: 1px solid #f0f0f0;
+}
+.page-checkout .foot .price {
+    font-size: 14px;
+    color: #3d4245;
+    display: block;
+}
+.page-checkout .foot .price em {
+    font-size: 16px;
+    color: #e968a1;
+    font-style: normal;
+}
+.page-checkout .foot .extra {
+    font-size: 12px;
+    color: #999;
+}
+.page-checkout .combo-item {
+    height: 5.333333333rem;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 1.5rem;
+}
+.page-checkout .combo-item .price {
+    display: block;
+    color: #e968a1;
+    font-size: .25rem;
+    text-align: center;
+}
+.page-checkout .combo-item .price em {
+    font-size: .9rem;
+    font-style: normal;
+}
+.page-checkout .combo-item .combo-name {
+    font-size: .85rem;
+    color: #333;
+    display: block;
+    text-align: center;
+}
+.page-checkout .combo-item-wrapper.active .combo-item {
+    border: 1px solid #e968a1;
+    margin-left: -1px;
+    background-image: url(../../image/check-corner.png);
+    background-size: 1.375rem auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.page-checkout .combo-item-wrapper.active:first-child .combo-item {
+    margin-left: 0;
+}
+.page-checkout .combo-item-wrapper:last-child:not(.active) .combo-item {
+    border-right: 0;
+}
+.page-checkout .people-picker-note {
+    color: #999;
+    font-size: 14px;
+    height: 30px;
+    background: #fffbda;
+    line-height: 30px;
+    display: block;
+    padding-left: 10px;
+}
+.page-checkout .people-picker {
+    padding: 20px;
+}
+.page-checkout .combo-picker-btn {
+    border: 0;
+}

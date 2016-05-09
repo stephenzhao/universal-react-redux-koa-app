@@ -1,0 +1,86 @@
+.page-album-detail {
+    background: #ebf0f7;
+    padding-bottom: 20px;
+}
+
+.page-album-detail .head {
+    height: 4.5rem;
+    padding: 0.5rem;
+}
+
+.page-album-detail .logo-image {
+    width: 5.75rem;
+    height: 1.7rem;
+}
+
+.page-album-detail .text-image {
+    width: 8.65rem;
+    height: 3.8rem;
+}
+
+
+.page-album-detail .text {
+    font-size: 14;
+    line-height: 20px;
+    color: #999;
+    display: block;
+    margin-left: 0.5rem;
+}
+
+.page-album-detail .image-list {
+    padding: 0.5rem;
+}
+
+.page-album-detail .image-list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-album-detail .image-item {
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.page-album-detail .btn-large {
+    margin: 10px 10px 20px 10px;
+}
+.page-album-detail .bottom-text {
+    color:#999;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin-top: 35px;
+}
+
+.page-album-detail .mask {
+    background: #000;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.page-album-detail .mask .fc {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-album-detail .mask .fc i {
+    width: 300px;
+    height: 136px;
+    background-image: url(../../image/fc.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    float: right;
+    margin: 25px;
+}

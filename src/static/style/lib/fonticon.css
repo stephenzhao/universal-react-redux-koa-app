@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "fonticon";
+  src: url('../../font/fonticon.eot?v=1.4.2');
+  src: url('../../font/fonticon.eot?v=1.4.2#iefix') format('eot'),
+    url('../../font/fonticon.woff2?v=1.4.2') format('woff2'),
+    url('../../font/fonticon.woff?v=1.4.2') format('woff'),
+    url('../../font/fonticon.ttf?v=1.4.2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fi {
+    display: inline-block;
+    font: normal normal normal 14px/1 fonticon;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fi-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fi-2x { font-size: 2em; }
+.fi-3x { font-size: 3em; }
+.fi-4x { font-size: 4em; }
+.fi-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.fi-angle-down:before { content: "\EA01" }
+.fi-angle-left:before { content: "\EA02" }
+.fi-angle-right:before { content: "\EA03" }
+.fi-angle-up:before { content: "\EA04" }
+.fi-avatar-camera:before { content: "\EA05" }
+.fi-avatar:before { content: "\EA06" }
+.fi-camera:before { content: "\EA07" }
+.fi-cart:before { content: "\EA08" }
+.fi-certificate:before { content: "\EA09" }
+.fi-check-circle:before { content: "\EA0A" }
+.fi-chevron-down:before { content: "\EA0B" }
+.fi-chevron-left:before { content: "\EA0C" }
+.fi-chevron-right:before { content: "\EA0D" }
+.fi-chevron-up:before { content: "\EA0E" }
+.fi-circle-o:before { content: "\EA0F" }
+.fi-clock:before { content: "\EA10" }
+.fi-close-circle:before { content: "\EA11" }
+.fi-credit-card:before { content: "\EA12" }
+.fi-edit-s:before { content: "\EA13" }
+.fi-edit:before { content: "\EA14" }
+.fi-eye:before { content: "\EA15" }
+.fi-heart-o:before { content: "\EA16" }
+.fi-heart:before { content: "\EA17" }
+.fi-home:before { content: "\EA18" }
+.fi-list:before { content: "\EA19" }
+.fi-map-marker-o:before { content: "\EA1A" }
+.fi-minus:before { content: "\EA1B" }
+.fi-note:before { content: "\EA1C" }
+.fi-package-return:before { content: "\EA1D" }
+.fi-person:before { content: "\EA1E" }
+.fi-plane:before { content: "\EA1F" }
+.fi-plus:before { content: "\EA20" }
+.fi-pocket:before { content: "\EA21" }
+.fi-police:before { content: "\EA22" }
+.fi-post-back:before { content: "\EA23" }
+.fi-scan:before { content: "\EA24" }
+.fi-search:before { content: "\EA25" }
+.fi-share:before { content: "\EA26" }
+.fi-tel:before { content: "\EA27" }
+.fi-thumbs-up:before { content: "\EA28" }
+.fi-ticket:before { content: "\EA29" }
+.fi-time:before { content: "\EA2A" }
+.fi-trolley:before { content: "\EA2B" }
+.fi-truck:before { content: "\EA2C" }

@@ -1,0 +1,172 @@
+.sprite-crown {
+    background-image: url(../../image/crown.png);
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+}
+.sprite-star {
+    background-image: url(../../image/star.png);
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-star-empty {
+    background-image: url(../../image/star-empty.png);
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-star-half {
+    background-image: url(../../image/star-half.png);
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-star-pink {
+    background-image: url(../../image/star-pink.png);
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-heart {
+    background-image: url(../../image/heart.png);
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-angle-up, .sprite-angle-down, .sprite-angle-right {
+    background-image: url(../../image/angle-right.png);
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-size: cover;
+    vertical-align: middle;
+}
+.sprite-angle-down, .sprite-angle-up {
+    height: 15px;
+    width: 8px;
+    position: absolute;
+    top: 36px;
+    right: 10px;
+}
+.sprite-angle-down {
+    -webkit-transform: rotate(90deg);
+}
+.sprite-angle-up {
+    -webkit-transform: rotate(-90deg);
+}
+.sprite-clock {
+    background-image: url(../../image/clock.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-clock-large {
+    background-image: url(../../image/clock-large.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-map-mark {
+    background-image: url(../../image/map-mark.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-phone {
+    background-image: url(../../image/phone.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-phone-large {
+    background-image: url(../../image/phone-large.png);
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-people {
+    background-image: url(../../image/people.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-smile {
+    background-image: url(../../image/smile.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-pencil {
+    background-image: url(../../image/pencil.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-radio-on {
+    background-image: url(../../image/radio-on.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-radio-off {
+    background-image: url(../../image/radio-off.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-check-on {
+    background-image: url(../../image/check-on.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-check-off {
+    background-image: url(../../image/check-off.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    vertical-align: -1px;
+}
+.sprite-note {
+    background-image: url(../../image/note.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    vertical-align: -1px;
+}

@@ -1,0 +1,34 @@
+.page-index .theme-list-title,
+.page-index .case-list-title {
+    height: 1.4rem;
+    width: 100%;
+    margin: 12px 0;
+    background-repeat: no-repeat;
+    background-size: 4.5rem auto;
+    background-position: center;
+    position: relative;
+}
+.page-index .theme-list-title:before,
+.page-index .case-list-title:before,
+.page-index .theme-list-title:after,
+.page-index .case-list-title:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    border-top: 1px solid #e968a1;
+    border-bottom: 2px solid #a8d6f3;
+    float: left;
+    height: 5px;
+    margin-top: 0.5rem;
+}
+.page-index .theme-list-title:after,
+.page-index .case-list-title:after {
+    float: right;
+}
+
+.page-index .theme-list-title {
+    background-image: url(../../image/theme-list-title.png);
+}
+.page-index .case-list-title {
+    background-image: url(../../image/case-list-title.png);
+}
