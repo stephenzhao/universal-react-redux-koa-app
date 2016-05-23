@@ -25,6 +25,10 @@ function serverRender(url, store) {
                     redirect: redirectLocation
                 });
             }
+            if (!renderProps) {
+                rej(error);
+                return;
+            }
             html = ReactDomServer.renderToString(
                 <Provider store={store}>
                   <RouterContext {...renderProps} />

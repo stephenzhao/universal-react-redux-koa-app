@@ -13,6 +13,7 @@
 
 ## 配置 React + Koa.js 工程
 
-``` npm init --yes ```
-``` npm install -save koa koa-router```
-使用nodemon
+```
+npm install 
+npm start
+```
